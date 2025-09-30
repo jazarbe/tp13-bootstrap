@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  </head>
+  <body>
+    <header>
+        <!-- inicio nav -->
+        <nav class="navbar navbar-expand-lg bg-dark nav-underline" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Ailin y Jazmin</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Sobre Nosotras</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#"></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Proyectos
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Arte</a></li>
+                        <li><a class="dropdown-item" href="#">Programación</a></li>
+                        <li><a class="dropdown-item" href="#">EFSI</a></li>
+                    </ul>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- fin nav -->
+    </header>
+    <main>
+        <!-- intro -->
+        <section id="inicio" class="bg-light text-dark text-center py-5">
+            <div class="container">
+                <img src="foto.jpg" class="img-thumbnail rounded-circle mb-3" alt="foto" style="width: 20%; height: 20%;">
+                <h1 class="fw-bold">Hola, somos Ailin & Jazmin 👩‍💻</h1>
+                <p class="lead">Estudiantes de Informática en ORT Yatay. Apasionadas por la tecnología, el diseño y la creatividad.</p>
+            </div>
+        </section>
+        <!-- sobre nosotras -->
+        <section id="sobre" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">Sobre Nosotras</h2>
+                <div class="row">
+                <div class="col-md-6">
+                    <p>Somos estudiantes de informática en ORT Yatay. Nos interesa el desarrollo web, el arte digital y la innovación tecnológica.</p>
+                    <p>En nuestra trayectoria académica hemos trabajado en proyectos integradores, explorando tanto lo técnico como lo creativo.</p>
+                </div>
+                <div class="col-md-6">
+                    <p><strong>Hobbies:</strong> Diseño gráfico, música, lectura y programar proyectos creativos.</p>
+                    <p><strong>Objetivo:</strong> Seguir creciendo en el mundo IT y dejar nuestra huella en cada proyecto.</p>
+                </div>
+                </div>
+            </div>
+        </section>
+        <!-- proyectos carrousel -->
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <!-- card proyecto -->
+                </div>
+                <div class="carousel-item">
+                    <!-- card proyecto -->
+                </div>
+                <div class="carousel-item">
+                    <!-- card proyecto -->
+                </div>
+                <div class="carousel-item">
+                    <!-- card proyecto -->
+                </div>
+                <div class="carousel-item">
+                    <!-- card proyecto -->
+                </div>
+                <div class="carousel-item">
+                    <!-- card proyecto -->
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- fin carrousel -->
+    </main>
+    <footer></footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
