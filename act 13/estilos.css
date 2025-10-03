@@ -1,0 +1,21 @@
+/* CAROUSEL CAMBIOS */
+.carousel-container {
+  max-width: 30%;
+  margin: 0 auto;
+  position: relative;
+}
+.carousel-inner .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+.card {
+  margin: 0 15px;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+}
+
+#contacto, #proyectos, #calificaciones {
+    margin-top: 3%;
+}

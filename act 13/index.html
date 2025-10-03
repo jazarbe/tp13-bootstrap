@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="estilos.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   </head>
   <body>
@@ -54,8 +55,9 @@
                 <p class="lead">Estudiantes de Informática en ORT Yatay. Apasionadas por la tecnología, el diseño y la creatividad.</p>
             </div>
         </section>
+        
         <!-- sobre nosotras -->
-        <section id="sobre" class="py-5">
+        <section id="sobre" class="py-5 bg-dark text-white">
             <div class="container">
                 <h2 class="text-center mb-4">Sobre Nosotras</h2>
                 <div class="row">
@@ -70,45 +72,115 @@
                 </div>
             </div>
         </section>
+        
         <!-- proyectos carrousel -->
-        <div id="carouselExampleIndicators" class="carousel slide">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
+         <section id="proyectos">
+            <h2 class="text-center mb-4">Proyectos de Arte 🎨</h2>
+            <div id="portfolioCarousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <!-- card proyecto -->
+                <div class="row">
+                    <div class="col-md-4">
+                    <div class="card">
+                        <img src="card1.png" class="card-img-top" alt="Proyecto 1">
+                        <div class="card-body">
+                        <h5 class="card-title">Tutorial</h5>
+                        <p class="card-text">Cómo usar Netflix.</p>
+                        <a href="https://tutorial-ailu-jaz.netlify.app/" target="_blank" class="btn btn-primary">Ver en Netlify</a>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-md-4">
+                    <div class="card">
+                        <img src="card2.png" class="card-img-top" alt="Proyecto 2">
+                        <div class="card-body">
+                        <h5 class="card-title">Doña Julia</h5>
+                        <p class="card-text">Sitio web de un restaurante familiar.</p>
+                        <a href="https://tp01-severino-arias.netlify.app/" target="_blank" class="btn btn-primary">Ver en Netlify</a> 
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-md-4">
+                    <div class="card">
+                        <img src="card3.png" class="card-img-top" alt="Proyecto 3">
+                        <div class="card-body">
+                        <h5 class="card-title">Bariloche</h5>
+                        <p class="card-text">Descubrí esta ciudad desde otro lugar.</p>
+                        <a href="https://bariloche-ailu-jaz.netlify.app/" target="_blank" class="btn btn-primary">Ver en Netlify</a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
                 </div>
                 <div class="carousel-item">
-                    <!-- card proyecto -->
+                <div class="row">
+                    <div class="col-md-4">
+                    <div class="card">
+                        <img src="card4.png" class="card-img-top" alt="Proyecto 4">
+                        <div class="card-body">
+                        <h5 class="card-title">Moodsnap</h5>
+                        <p class="card-text">Sitio inspiracional, que cambia con tus emociones.</p>
+                        <a href="https://moodsnap-ailu-jaz.netlify.app/" target="_blank" class="btn btn-primary">Ver en Netlify</a>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-md-4">
+                    <div class="card">
+                        <img src="card5.png" class="card-img-top" alt="Proyecto 5">
+                        <div class="card-body">
+                        <h5 class="card-title">Lost & Found</h5>
+                        <p class="card-text">Marketplace de objetos perdidos mágicos.</p>
+                        <a href="https://tp02-arias-severino.netlify.app/" target="_blank" class="btn btn-primary">Ver en Netlify</a>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-md-4">
+                    <div class="card">
+                        <img src="card6.png" class="card-img-top" alt="Proyecto 6">
+                        <div class="card-body">
+                        <h5 class="card-title">Sabrina Carpenter</h5>
+                        <p class="card-text">Sitio web sobre su carrera.</p>
+                        <a href="https://sabrina-ailu-jaz.netlify.app/" target="_blank" class="btn btn-primary">Ver en Netlify</a>
+                        </div>
+                    </div>
+                    </div>
                 </div>
-                <div class="carousel-item">
-                    <!-- card proyecto -->
-                </div>
-                <div class="carousel-item">
-                    <!-- card proyecto -->
-                </div>
-                <div class="carousel-item">
-                    <!-- card proyecto -->
-                </div>
-                <div class="carousel-item">
-                    <!-- card proyecto -->
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
+            <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                <span class="visually-hidden">Anterior</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
+            <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                <span class="visually-hidden">Siguiente</span>
             </button>
-        </div>
+            </div>
+        </section>
         <!-- fin carrousel -->
+        <!-- calificaciones -->
+        <section id="calificaciones" class="bg-light text-dark py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">Calificaciones 📜</h2>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Desarrollo Web</li>
+                    <li class="list-group-item">C#</li>
+                    <li class="list-group-item">Diseño UX/UI</li>
+                    <li class="list-group-item">Manejo fluido de Inglés</li>
+                </ul>
+            </div>
+        </section>
     </main>
-    <footer></footer>
+    <footer>
+        <!-- contacto -->
+        <section id="contacto" class="bg-dark text-white py-5">
+        <div class="container text-center">
+            <h2 class="mb-4">Contacto</h2>
+            <p>📧 Email: <a href="" class="text-white">ailin.jazmin@gmail.com</a></p>
+            <p>🌐 <a href="https://www.linkedin.com" class="text-white">LinkedIn</a> | <a href="https://github.com" class="text-white">GitHub</a></p>
+        </div>
+        </section>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
   </body>
 </html>
